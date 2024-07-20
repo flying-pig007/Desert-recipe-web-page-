@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+    .super{
+        height: 100vh;
+       
+    }
+
+.cyan{
+    background-color: cyan;
+    width: 700px;
+    height: 450px;
+    position: fixed;
+    transform: rotate(-40deg);
+    position: fixed;
+    top: -200px;
+    left: -250px;   
+}
+
+.pink{
+    background-color: #fd4564;
+    width: 700px;
+    height: 450px;
+    position: fixed;
+    transform: rotate(-40deg);
+    position: fixed;
+    bottom: -200px;
+   right: -250px;   
+}
+.icecream{
+    height: 450px;
+    width: 25%;
+    transform: translate(500px, 150px);
+    color: white;
+   font-size: larger;
+   display: flex;
+   flex-direction: column;
+   perspective: 600;
+ 
+   
+}
+.ice1{
+   flex: 1;
+   background-color: cyan;
+   width: 100%;
+  border-radius: 50px 0 0 0;
+}
+.ice2{
+    flex: 1;
+   background-color: white;
+   width: 100%;
+}
+.ice3{
+    flex: 1;
+   background-color: #fd4564;
+   width: 100%;
+}
+.ice1,.ice2,.ice3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+    </style>
+</head>
+<body>
+    <div class="super">
+        <div class="cyan"></div>
+        <div class="white">
+           <div class="icecream">
+            <div class="ice1">
+                <div style="height: 100px; background-color: cyan;width: 70px;border-radius: 40px 40px 0 0;position: fixed;top: -100px;right: 0;">     
+                </div>
+            </div>
+            <div class="ice2"></div>
+            <div class="ice3">
+                <div style="height: 100px; background-color: sandybrown;width: 50px;border-radius: 0 0 40px 40px;position: fixed;bottom: -100px;left: 40%;">     
+                </div>
+                <div style="height: 50px; background-color: #fd4564;width: 10px;border-radius: 0 0 40px 40px;position: fixed;bottom: -50px;left: 10%;">     
+                </div>
+                <div style="height: 50px; background-color: #fd4564;width: 10px;border-radius: 0 0 40px 40px;position: fixed;bottom: -50px;right: 30%;">     
+                </div>
+                <div style="height: 30px; background-color: #fd4564;width: 10px;border-radius: 0 0 40px 40px;position: fixed;bottom: -30px;left: 30%;">     
+                </div>
+                <div style="height: 30px; background-color: #fd4564;width: 10px;border-radius: 0 0 40px 40px;position: fixed;bottom: -30px;right: 10%;">     
+                </div>
+            </div>
+           </div></div>
+        <div class="pink"></div>
+</body>
+</html>
